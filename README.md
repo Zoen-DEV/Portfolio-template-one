@@ -15,5 +15,5 @@ yarn dev
 
 ``` This is the first project of a collection of websites templates ```
 
-> Some tecnologies i use for this project:
+> Some tecnologies i use for this project: <br>
 > Next.js and Tailwind css
