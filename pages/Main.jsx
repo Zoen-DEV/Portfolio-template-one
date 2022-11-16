@@ -12,7 +12,7 @@ const Main = () => {
     <section id="main" className="min-h-screen ml-20 mr-20">
       <div className="text-center p-10 ">
         <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96 ">
-          <Image src={deved} layout="fill" objectFit="cover" />
+          <Image src={deved} layout='fill' objectFit="cover" alt="main logo"  />
         </div>
         <h2 className="text-5xl py-2 text-teal-600 mt-20 font-medium md:text-6xl drop-shadow-lg ">
           Richard Wave

@@ -32,6 +32,7 @@ const Projects = () => {
             width={"100%"}
             height={"100%"}
             layout="responsive"
+            alt="project 1"
           />
         </div>
         <div className="basis-1/3 flex-1">
@@ -41,6 +42,7 @@ const Projects = () => {
             width={"100%"}
             height={"100%"}
             layout="responsive"
+            alt="project 2"
           />
         </div>
         <div className="basis-1/3 flex-1">
@@ -50,6 +52,7 @@ const Projects = () => {
             width={"100%"}
             height={"100%"}
             layout="responsive"
+            alt="project 3"
           />
         </div>
         <div className="basis-1/3 flex-1">
@@ -59,6 +62,7 @@ const Projects = () => {
             width={"100%"}
             height={"100%"}
             layout="responsive"
+            alt="project 4"
           />
         </div>
         <div className="basis-1/3 flex-1">
@@ -68,6 +72,7 @@ const Projects = () => {
             width={"100%"}
             height={"100%"}
             layout="responsive"
+            alt="project 5"
           />
         </div>
         <div className="basis-1/3 flex-1">
@@ -77,6 +82,7 @@ const Projects = () => {
             width={"100%"}
             height={"100%"}
             layout="responsive"
+            alt="project 6"
           />
         </div>
       </div>

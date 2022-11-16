@@ -8,7 +8,9 @@ const Skills = () => {
   return (
     <section id="skills" className="min-h-screen ml-28 mr-28">
       <div className="max-w-screen-lg mx-auto mt-20 pt-28 ">
-        <h3 className="text-3xl py-1 font-bold dark:text-gray-100 ">Services I offer</h3>
+        <h3 className="text-3xl py-1 font-bold dark:text-gray-100 ">
+          Services I offer
+        </h3>
         <p className="text-md py-2 leading-8 pl-2 text-gray-800 dark:text-gray-300 ">
           Since the beginning of my journey as a freelance designer, I've done
           remote work for <span className="text-teal-500"> agencies </span>{" "}
@@ -23,7 +25,7 @@ const Skills = () => {
       </div>
       <div className=" lg:flex gap-10 ">
         <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-gray-800 dark:bg-gray-200 ">
-          <Image src={design} width={100} height={100} />
+          <Image src={design} width={100} height={100} alt="design logo" />
           <h3 className="text-lg font-medium pt-8 pb-2 text-gray-100 dark:text-gray-900 ">
             Beatiful Designs
           </h3>
@@ -37,7 +39,7 @@ const Skills = () => {
           <p className="text-gray-200 py-1 dark:text-gray-800 ">Figma</p>
         </div>
         <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-gray-800 dark:bg-gray-200 ">
-          <Image src={code} width={100} height={100} />
+          <Image src={code} width={100} height={100} alt="code logo"  />
           <h3 className="text-lg font-medium pt-8 pb-2 text-gray-100 dark:text-gray-900 ">
             Beatiful Designs
           </h3>
@@ -51,7 +53,7 @@ const Skills = () => {
           <p className="text-gray-200 py-1 dark:text-gray-800 ">Figma</p>
         </div>
         <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-gray-800 dark:bg-gray-200 ">
-          <Image src={consulting} width={100} height={100} />
+          <Image src={consulting} width={100} height={100} alt="consulting logo"  />
           <h3 className="text-lg font-medium pt-8 pb-2 text-gray-100 dark:text-gray-900 ">
             Beatiful Designs
           </h3>
