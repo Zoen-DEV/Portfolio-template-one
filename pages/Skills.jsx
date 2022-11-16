@@ -12,7 +12,7 @@ const Skills = () => {
           Services I offer
         </h3>
         <p className="text-md py-2 leading-8 pl-2 text-gray-800 dark:text-gray-300 ">
-          Since the beginning of my journey as a freelance designer, I've done
+          Since the beginning of my journey as a freelance designer, Ive done
           remote work for <span className="text-teal-500"> agencies </span>{" "}
           consulted for <span className="text-teal-500">startups</span> and
           collaborated with talented people to create digital products for both
