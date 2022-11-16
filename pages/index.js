@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Nav from "../components/Nav";
 import Projects from "./projects";
 import Skills from "./Skills";
@@ -7,6 +7,16 @@ import Main from "./Main";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
+
+useEffect(() => {
+  // window.localStorage.clear()
+  const theme = JSON.parse(window.localStorage.getItem('darkMode'))
+  if(theme !== null){
+    setDarkMode(theme)
+  }
+}, [])
+
+
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
