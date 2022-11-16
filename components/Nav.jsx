@@ -3,6 +3,13 @@ import Link from "next/link";
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
 
 const Nav = ({ setDarkMode, darkMode }) => {
+
+  const handleTheme = (e) => {
+    console.log(darkMode)
+    window.localStorage.setItem('darkMode', !darkMode)
+    setDarkMode(!darkMode)
+  }
+
   return (
     <nav className="py-5 flex justify-between fixed w-screen pl-10 pr-10 z-10 bg-white shadow-lg dark:bg-gray-800 ">
       <h1 className="text-xl font-burtons md:text-3xl lg:text-4xl dark:text-gray-200 ">Richard Wave</h1>
@@ -19,12 +26,12 @@ const Nav = ({ setDarkMode, darkMode }) => {
         <li>
           {darkMode ? (
             <BsFillMoonStarsFill
-              onClick={() => setDarkMode(!darkMode)}
+              onClick={handleTheme}
               className="cursor-pointer text-2xl text-white"
             />
           ) : (
             <BsFillSunFill
-              onClick={() => setDarkMode(!darkMode)}
+              onClick={handleTheme}
               className="cursor-pointer text-2xl text-gray-800 "
             />
           )}
